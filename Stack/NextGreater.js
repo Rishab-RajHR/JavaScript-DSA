@@ -20,4 +20,4 @@ function nextGreEle(arr) {
     }
     return res;
 }
-console.log(nextGreEle([4,5,2,10,8]));
+console.log(nextGreEle([4,5,2,10,8]));   // Output :[5, 10, 10, -1, -1]
