@@ -6,12 +6,12 @@ function upperBound(arr, target){
      while(start <= end) {
          let mid = Math.floor((start + end)/2);
 
-         if(arr[mid] <= target){
+         if(arr[mid] > target){
               answer = mid;
-              start = mid + 1;
+              end = mid - 1;
          }
          else {
-             end = mid - 1;
+             start = mid + 1;
          }
      }
      return answer;
