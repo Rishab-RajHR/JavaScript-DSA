@@ -1,4 +1,4 @@
-// Find the unique element
+// Find the unique elements
 
 function findUnique(arr){
     let map = {};
