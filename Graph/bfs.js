@@ -7,7 +7,7 @@ const graph = {
    D: ["B"],
    E: ["B"],
    F: ["C"]
-}
+};
 
 function bfs(graph, start){
     let queue = [];
