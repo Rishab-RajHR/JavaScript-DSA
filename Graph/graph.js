@@ -1,7 +1,7 @@
 class Graph{
    constructor(){
      this.adjacencyList = {};
-   }
+   } // graph is non linear 
    addVertex(vertex){
      if(!this.adjacencyList[vertex]){
         this.adjacencyList[vertex] = [];
