@@ -13,6 +13,8 @@ class Graph{
    }
 }
 
+// Graph 
+
 let graph = new Graph();
 
 graph.addVertex("A");
