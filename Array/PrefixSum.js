@@ -1,3 +1,5 @@
+// Prefix Sum 
+
 function buildPrefixSum(arr){
     let prefix = new Array(arr.length);
     prefix[0] = arr[0];
