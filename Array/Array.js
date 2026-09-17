@@ -1,4 +1,5 @@
 // Array => Linear Data structure fast data retrieval contiguous form
+// Array => Fast Data Access
 
 let arr = [10,20,30,40];
 
